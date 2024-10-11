@@ -1,0 +1,294 @@
+/*หนังสือแนะนำ*/
+main{
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fffbf7;
+
+
+}
+
+.logo{
+  align-content: space-around;
+  
+}
+
+
+/* Align and space the items in the nav bar */
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/*รูปเปิด*/
+.ads2{
+  padding: auto;
+}
+
+.navbar {
+  height: 81px; /* Adjust the height of the navbar */
+  width: 100%;  /* Make sure it spans the full width */
+}
+
+/*ฟ้อนต์*/
+.ibm-plex-sans-thai-bold {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+
+}
+
+.ibm-plex-sans-thai-regular {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/*ฟ้อนต์ตรงรายละเอียดหนังสือ*/
+.ibm-plex-sans-thai-regular2 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.prompt-medium {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+
+}
+
+.text-book{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.ช่องsearch{
+  border-radius: 25px;
+  width: 350px;
+
+}
+
+.search-button{
+   width: max-content;
+   display: flex;
+   align-items: center;
+   padding-left: 0;
+   margin: 0;
+   color: #412c1b;
+
+}
+
+
+.text-color{
+  color: #fffbf7;
+
+}
+
+.text-color2{
+  color: #412c1b;
+
+}
+
+
+/*อิรุมะ+สแลมดั้ง ชื่อเรื่อง*/
+.title-book{
+  text-align: center;
+  font-size: 70px;
+
+}
+
+@media (min-width: 768px) {
+  .title-book {
+      text-align: right; /* Align right on MD screens */
+  }
+}
+
+
+/*อิรุมะ+สแลมดั้ง คนเขียน*/
+.ชื่อคนเขียน{
+  text-align: center;
+  font-size: 25px;
+
+}
+
+@media (min-width: 768px) {
+  .ชื่อคนเขียน {
+      text-align: right; /* Align right on MD screens */
+  }
+}
+
+
+/*กินทามะ ชื่อเรื่อง*/
+.หัวข้อกินทามะ{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+@media (min-width: 768px) {
+  .หัวข้อกินทามะ {
+      text-align: left; /* Align right on MD screens */
+  }
+}
+
+
+/*กินทามะ คนเขียน*/
+.คนเขียนกินทามะ{
+  text-align: center;
+  font-size: 23px;
+
+}
+
+@media (min-width: 768px) {
+  .คนเขียนกินทามะ {
+      text-align: left; /* Align right on MD screens */
+  }
+}
+
+
+.ย่อหน้า{
+  text-indent: 30px;
+  text-align: justify;
+  z-index: 2; /* Puts the text in front of the image */
+
+}
+
+.จัดย่อหน้านสทั้งหมด{
+  padding-right: 0;
+
+}
+
+/*padding เนื้อหา*/
+.เนื้อหานส1{
+  padding: 6%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+
+
+}
+
+.เนื้อหานส2{
+  padding: 6%;
+  margin-top: -9;
+  margin-bottom: 0%;
+  padding-top: 3%;
+
+}
+
+
+.เนื้อหาประวัติ{
+  padding: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: auto;
+  margin-top: 0%;
+
+}
+  
+
+/*modal*/
+.รายละเอียดหนังสือ{
+   text-align: left;
+
+}
+
+/*icon เสิร์ช madal*/
+.ปุ่ม{
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.ปุ่ม2{
+  width: fit-content;
+}
+
+/*จัดปกกินทามะ+สแลมดั้ง*/
+.จัดปก{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+
+}
+
+/*จัดพื้นหลัง pink dot*/
+.pinkdot{
+  margin: auto;
+  padding: auto;
+  background-size: contain;
+
+}
+
+
+.ชมพูnavbar{
+  margin: 0;
+  padding: 0;
+  border-image-width: 0;
+
+}
+
+
+.ads{
+  padding: 2%;
+  width: 800px;
+
+}
+
+.ads-bg{
+   background-repeat: repeat-x;
+   background-size: cover;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.ผลงาน{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+
+}
+
+.ปกผลงาน{
+  margin: 0;
+  padding: 1%;
+  align-items: auto;
+
+}
+
+.ชื่อนส{
+  margin-top: 8%;
+  text-align: center;
+  size-adjust: 100cm;
+}
+
+/*รายละเอียดประวัติ*/
+.จัดหน้า{
+  text-align: left;
+
+}
+
